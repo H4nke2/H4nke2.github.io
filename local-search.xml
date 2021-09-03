@@ -20,7 +20,9 @@
     
     <tags>
       
-      <tag>VLAN   交换机</tag>
+      <tag>VLAN</tag>
+      
+      <tag>交换机</tag>
       
     </tags>
     
@@ -45,7 +47,9 @@
     
     <tags>
       
-      <tag>ARP  广播</tag>
+      <tag>ARP</tag>
+      
+      <tag>广播</tag>
       
     </tags>
     
@@ -70,7 +74,7 @@
     
     <tags>
       
-      <tag>数据链路层   帧   MAC  交换机</tag>
+      <tag>【数据链路层, 帧, MAC, 交换机]</tag>
       
     </tags>
     
@@ -120,7 +124,11 @@
     
     <tags>
       
-      <tag>网络    协议    OSI</tag>
+      <tag>网络</tag>
+      
+      <tag>协议</tag>
+      
+      <tag>OSI</tag>
       
     </tags>
     
