@@ -20,6 +20,8 @@
     
     <tags>
       
+      <tag>广播</tag>
+      
       <tag>交换机</tag>
       
       <tag>VLAN</tag>
@@ -50,6 +52,8 @@
       <tag>ARP</tag>
       
       <tag>广播</tag>
+      
+      <tag>MAC</tag>
       
     </tags>
     
@@ -107,6 +111,8 @@
       
       <tag>路由</tag>
       
+      <tag>交换机</tag>
+      
     </tags>
     
   </entry>
@@ -129,8 +135,6 @@
     
     
     <tags>
-      
-      <tag>网络</tag>
       
       <tag>协议</tag>
       
