@@ -76,9 +76,9 @@
       
       <tag>交换机</tag>
       
-      <tag>VLAN</tag>
-      
       <tag>广播</tag>
+      
+      <tag>VLAN</tag>
       
     </tags>
     
@@ -105,9 +105,9 @@
       
       <tag>MAC</tag>
       
-      <tag>广播</tag>
-      
       <tag>ARP</tag>
+      
+      <tag>广播</tag>
       
     </tags>
     
