@@ -182,6 +182,110 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
+        <a href="/2021/09/04/ICMP/" target="_self">
+          计算机网络基础--ICMP
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/09/04/ICMP/" target="_self">
+          
+          
+            
+          
+          ICMP协议的作用，使用方法和反馈信息。
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-09-04 11:20" pubdate>
+              2021-09-04
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/">网络基础</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E5%8D%8F%E8%AE%AE/">协议</a>
+            
+              <a href="/tags/ICMP/">ICMP</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2021/09/04/TRUNK/" target="_self">
+          计算机网络基础--TRUNK
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2021/09/04/TRUNK/" target="_self">
+          
+          
+            
+          
+          TRUNK的介绍，方法，作用。
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2021-09-04 11:16" pubdate>
+              2021-09-04
+            </time>
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/">网络基础</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E4%BA%A4%E6%8D%A2%E6%9C%BA/">交换机</a>
+            
+              <a href="/tags/TRUNK/">TRUNK</a>
+            
+          </div>
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
         <a href="/2021/09/03/55/" target="_self">
           计算机网络基础--VLAN（虚拟局域网）
         </a>
@@ -193,12 +297,7 @@
           
             
           
-          VLAN（虚拟局域网）
-   广播的危害：增加网络和终端的负担，传播病毒、安全性差。
-   控制广播其实就是隔离广播域，路由器可以隔离广播域，但成本高且不灵活。
-   可以采用VLAN来控制广播，VLAN技术是在交换机上实现的，且是通过逻辑隔离（非物理隔离）划分的广播域。
-   交换机收到一个帧后，先检查VLAN，再检查MAC地址。
-   VLAN的作用最根本的就是隔离广播，逻辑隔离广播域，VLA
+          虚拟局域网的配置、类型、作用。
         </a>
       </p>
 
@@ -252,12 +351,7 @@
           
             
           
-          ARP
-   广播：将广播地址作为目的地址的数据帧。广播域：网络中能接收同一个广播所有节点的集合。
-   MAC地址的广播地址：FF-FF-FF-FF-FF-FF。
-   IP的广播地址：255.255.255.255。广播IP地址为IP地址网段的广播地址，如192.168.1.255/0、192.168.1.127/25
-   广播域越小越好，越大通信效率越低。
-   交换机不能隔离广播域，但路
+          介绍ARP广播、IP广播，查看arp信息，以及arp攻击原理。
         </a>
       </p>
 
@@ -311,12 +405,7 @@
           
             
           
-          数据链路层
-   数据链路层（OSI第二层，Data Link Layer）,传输单元为帧，由MAC子层协议封装帧头和帧尾。
-   帧结构：
-   帧头有两种协议：802.3（有线网封装），802.11（无线网封装）。
-   帧头中的内容：目标MAC，源MAC，类型字段。
-   类型字段有两个值：0x0800（上层为IP协议），0x0806（上层为ARP协议）。类型字段用于识别上层协议，为上层提供
+          数据链路层所协议、传输单元，以及交换机工作原理。
         </a>
       </p>
 
@@ -372,12 +461,7 @@
           
             
           
-          路由原理
-   路由：跨越从源主机到目标主机的一个互联网络来转发数据包的过程。也是路由器为IP包选择路径的过程。路由器的路由依据是路由表。
-   0.0.0.0/0代表any，也就是所有的IP地址。
-   管理距离值（A值）越小，优先级越高。
-   C为直连路由，S为静态路由。S手工配置的默认路由（即0.0.0.0/0）。C的A值为0，S的A值为1，S的A值无穷大。
-交换机和路由器的对比： 1） 
+          路由器的工作机制，原理，以及路由器的配置命令和值。
         </a>
       </p>
 

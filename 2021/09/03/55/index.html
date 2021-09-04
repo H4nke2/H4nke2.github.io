@@ -14,7 +14,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="每天学习一点点">
+  <meta name="description" content="虚拟局域网的配置、类型、作用。">
   <meta name="author" content="Hank">
   <meta name="keywords" content="">
   
@@ -185,7 +185,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      365 字
+      377 字
     </span>
   
 
@@ -195,7 +195,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      3
+      4
        分钟
     </span>
   
@@ -237,12 +237,15 @@
             
               <p class="note note-info">
                 
-                  本文最后更新于：2 小时前
+                  本文最后更新于：9 分钟前
                 
               </p>
             
             <div class="markdown-body">
-              <h2 id="VLAN（虚拟局域网）"><a href="#VLAN（虚拟局域网）" class="headerlink" title="VLAN（虚拟局域网）"></a>VLAN（虚拟局域网）</h2><ol>
+              <p>虚拟局域网的配置、类型、作用。</p>
+<span id="more"></span>
+
+<h2 id="VLAN（虚拟局域网）"><a href="#VLAN（虚拟局域网）" class="headerlink" title="VLAN（虚拟局域网）"></a>VLAN（虚拟局域网）</h2><ol>
 <li>   广播的危害：增加网络和终端的负担，传播病毒、安全性差。</li>
 <li>   控制广播其实就是隔离广播域，路由器可以隔离广播域，但成本高且不灵活。</li>
 <li>   可以采用VLAN来控制广播，VLAN技术是在交换机上实现的，且是通过逻辑隔离（非物理隔离）划分的广播域。</li>
@@ -253,7 +256,7 @@
 <li>   交换机默认有5个vlan，其中VLAN1默认包括所有接口，其余四个VLAN存在但均以淘汰。</li>
 <li>   不同VLAN间的通信是通过路由实现的。</li>
 <li>   当交换机配置好VLAN后，1和4仍然无法通信，因为F0/1只属于VLAN1，VLAN1与VLAN2无法通过此接口，此时应创建trunk，允许所有VLAN通过。</li>
-<li>   当一个帧通过中继端口发送到另一个交换机时，中继端口会给帧打上标签，以区分不同的VLAN</li>
+<li>   当一个帧通过中继端口发送到另一个交换机时，中继端口会给帧打上标签，以区分不同的VLAN<img src="/img/VLAN.png" srcset="/img/loading.gif" lazyload class="[class names]"></li>
 </ol>
 
             </div>
@@ -286,6 +289,12 @@
                 <div class="post-prevnext">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/2021/09/04/TRUNK/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">计算机网络基础--TRUNK</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">
