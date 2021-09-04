@@ -47,9 +47,9 @@
     
     <tags>
       
-      <tag>交换机</tag>
-      
       <tag>TRUNK</tag>
+      
+      <tag>交换机</tag>
       
     </tags>
     
@@ -76,9 +76,9 @@
       
       <tag>广播</tag>
       
-      <tag>VLAN</tag>
-      
       <tag>交换机</tag>
+      
+      <tag>VLAN</tag>
       
     </tags>
     
