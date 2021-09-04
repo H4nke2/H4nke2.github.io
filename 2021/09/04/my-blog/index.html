@@ -14,11 +14,11 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="介绍ARP广播、IP广播，查看arp信息，以及arp攻击原理。">
+  <meta name="description" content="每天学习一点点">
   <meta name="author" content="Hank">
   <meta name="keywords" content="">
   
-  <title>计算机网络基础--ARP - Hank</title>
+  <title>my blog - Hank</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
 
@@ -175,7 +175,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="计算机网络基础--ARP">
+            <span class="h2" id="subtitle" title="my blog">
               
             </span>
 
@@ -185,8 +185,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2021-09-03 09:30" pubdate>
-        2021年9月3日 上午
+      <time datetime="2021-09-04 12:56" pubdate>
+        2021年9月4日 下午
       </time>
     </span>
   
@@ -197,7 +197,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      542 字
+      0 字
     </span>
   
 
@@ -207,7 +207,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      6
+      1
        分钟
     </span>
   
@@ -245,63 +245,21 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">计算机网络基础--ARP</h1>
+            <h1 style="display: none">my blog</h1>
             
               <p class="note note-info">
                 
-                  本文最后更新于：2 小时前
+                  本文最后更新于：8 分钟前
                 
               </p>
             
             <div class="markdown-body">
-              <p>介绍ARP广播、IP广播，查看arp信息，以及arp攻击原理。</p>
-<span id="more"></span>
-
-<h2 id="ARP"><a href="#ARP" class="headerlink" title="ARP"></a>ARP</h2><ol>
-<li>   广播：将广播地址作为目的地址的数据帧。<br>广播域：网络中能接收同一个广播所有节点的集合。</li>
-<li>   MAC地址的广播地址：FF-FF-FF-FF-FF-FF。</li>
-<li>   IP的广播地址：255.255.255.255。广播IP地址为IP地址网段的广播地址，如192.168.1.255/0、192.168.1.127/25</li>
-<li>   广播域越小越好，越大通信效率越低。</li>
-<li>   交换机不能隔离广播域，但路由器可以。</li>
-<li>   ARP：地址解析协议，将一个已知的IP地址解析成MAC地址。</li>
-<li>arp -a  查看arp缓存表<br> arp -d  清除缓存表<br> arp -s  arp绑定</li>
-<li>   ARP攻击是内网攻击手段。</li>
-<li>   ARP缓存表会自动清除。ARP缓存表更新后接收到的并覆盖前面的。</li>
-<li>   ARP攻击是通过伪造虚假的MAC地址，中断双方通信。</li>
-<li>   ARP欺骗（中间人攻击）截获数据。</li>
-<li>   ARP的工作原理：发送ARP广播请求；接收ARP单播应答。</li>
-<li>   ARP报文的大致内容，我的IP是x.x.x.x/x，我的mac是AA。谁是x.x.x.x/x，你是MAC是什么？</li>
-<li>   ARP攻击或欺骗的原理是：通过发送伪造的虚假的ARP报文（广播或单播）来实现，如虚假报文的MAC是伪造的，不存在的，实现的是ARP攻击，结果为使对方断网或中断两点间的通信。如果虚假报文的MAC地址是攻击者自身的，实现的是ARP欺骗，结果是可以监听、窃取、篡改、控制流量，但不会中断通信。</li>
-<li>   ARP协议没有校验机制。</li>
-<li>   交换机的端口是空的，没有MAC地址和IP，能配IP的接口才有MAC地址。</li>
-<li>   静态ARP绑定，即手工配置ARP缓存（需要双向绑定），静态ARP优先级高于动态ARP。</li>
-<li>   ARP防火墙（再企业中不建议使用）不断向网关发送ARP报文，且自动对网关进行ARP绑定。</li>
-<li>   硬件级ARP防御：交换机支持接口做动态ARP绑定（配合DHCP）或静态ARP绑定。</li>
-</ol>
-
+              
             </div>
             <hr>
             <div>
               <div class="post-metas mb-3">
                 
-                  <div class="post-meta mr-3">
-                    <i class="iconfont icon-category"></i>
-                    
-                      <a class="hover-with-bg" href="/categories/%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80/">网络基础</a>
-                    
-                  </div>
-                
-                
-                  <div class="post-meta">
-                    <i class="iconfont icon-tags"></i>
-                    
-                      <a class="hover-with-bg" href="/tags/MAC/">MAC</a>
-                    
-                      <a class="hover-with-bg" href="/tags/ARP/">ARP</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E5%B9%BF%E6%92%AD/">广播</a>
-                    
-                  </div>
                 
               </div>
               
@@ -310,18 +268,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2021/09/03/55/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">计算机网络基础--VLAN（虚拟局域网）</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2021/09/03/33/">
-                        <span class="hidden-mobile">计算机网络基础--数据链路层</span>
+                      <a href="/2021/09/04/ICMP/">
+                        <span class="hidden-mobile">计算机网络基础--ICMP</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
