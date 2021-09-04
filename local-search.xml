@@ -20,9 +20,9 @@
     
     <tags>
       
-      <tag>VLAN</tag>
-      
       <tag>交换机</tag>
+      
+      <tag>VLAN</tag>
       
     </tags>
     
@@ -74,13 +74,13 @@
     
     <tags>
       
-      <tag>交换机</tag>
-      
       <tag>数据链路层</tag>
       
       <tag>帧</tag>
       
       <tag>MAC</tag>
+      
+      <tag>交换机</tag>
       
     </tags>
     
